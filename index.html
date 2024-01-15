@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UrbanCrops</title>
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <!-- GOOGLE FONT: DM SANS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="container navbar-container">
+        <div class="navbar-logo">
+          <img src="/images/tomato-256.png" alt="" />
+          <a href="index.html"><h3>UrbanCrops</h3></a>
+        </div>
+        <ul class="navbar-items">
+          <button class="navbar-button-cross">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="36"
+              height="36"
+              viewBox="0 0 16 16"
+              id="cancel"
+            >
+              <path
+                fill="white"
+                d="M2.58859116,2.7156945 L2.64644661,2.64644661 C2.82001296,2.47288026 3.08943736,2.45359511 3.2843055,2.58859116 L3.35355339,2.64644661 L8,7.293 L12.6464466,2.64644661 C12.8417088,2.45118446 13.1582912,2.45118446 13.3535534,2.64644661 C13.5488155,2.84170876 13.5488155,3.15829124 13.3535534,3.35355339 L8.707,8 L13.3535534,12.6464466 C13.5271197,12.820013 13.5464049,13.0894374 13.4114088,13.2843055 L13.3535534,13.3535534 C13.179987,13.5271197 12.9105626,13.5464049 12.7156945,13.4114088 L12.6464466,13.3535534 L8,8.707 L3.35355339,13.3535534 C3.15829124,13.5488155 2.84170876,13.5488155 2.64644661,13.3535534 C2.45118446,13.1582912 2.45118446,12.8417088 2.64644661,12.6464466 L7.293,8 L2.64644661,3.35355339 C2.47288026,3.17998704 2.45359511,2.91056264 2.58859116,2.7156945 L2.64644661,2.64644661 L2.58859116,2.7156945 Z"
+              ></path>
+            </svg>
+          </button>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="index.html#services">Services</a></li>
+          <li><a href="index.html#pricing">Pricing</a></li>
+          <li><a href="index.html#about-us">About Us</a></li>
+          <li><a href="index.html#testinomials">Testimonials</a></li>
+          <li><a href="index.html#faqs">FAQS</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+         
+        </ul>
+        <div class="navbar-login">
+          <a href="#" class="login">Login</a>
+        </div>
+        <button class="navbar-button-menu">
+          <!--?xml version="1.0" ?--><svg style="color: white" height="39px" id="Layer_1" version="1.1" viewBox="0 0 32 32" width="39px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2 s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2 S29.104,22,28,22z" fill="white"></path></svg>
+         </button>
+       
+      </div>
+    </nav>
+    <header>
+      <div class="container">
+        <div class="hero-info">
+          <h1>Fresh, Organic Vegetables Delivered to Your Doorstep</h1>
+          <p>
+         
+"Experience a Culinary Journey with Our Fresh, Locally Sourced Organic Vegetables—Delivered to Your Doorstep for a Healthier, Tastier Lifestyle."
+          </p>
+          <div class="hero-video">
+            <a href="contact.html"><button class="button hero-button">Explore</button></a>
+            <img class="show-video" src="/images/video-icon.png" alt="" />
+          </div>
+        </div>
+
+        <img class="hero-img" src="/images/vegetable13.webp" alt="" />
+      </div>
+    </header>
+    <section id="video">
+      <div class="blur">
+        <svg class="close-video" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50">
+          <path d="M 7.71875 6.28125 L 6.28125 7.71875 L 23.5625 25 L 6.28125 42.28125 L 7.71875 43.71875 L 25 26.4375 L 42.28125 43.71875 L 43.71875 42.28125 L 26.4375 25 L 43.71875 7.71875 L 42.28125 6.28125 L 25 23.5625 Z"></path>
+          </svg>
+        <video
+          src="/images/video.mp4"
+          muted
+          controls
+          type="video/mp4"
+        ></video>
+    
+    </div>
+    </section>
+    <section id="services">
+      <div class="container service-container">
+        <h2>Our Services</h2>
+        <p>
+          "Discover the epitome of freshness and convenience with our
+          specialized vegetable packages designed to cater to diverse
+          preferences. Whether you're an individual seeking a weekly supply of 4
+          kilograms of varied vegetables, a restaurant aiming for daily culinary
+          innovation with our 12-kilogram package, or a luxury hotel aspiring
+          for premium daily deliveries of 25 kilograms—we have tailored
+          solutions to elevate your culinary experience. Our commitment to
+          quality, consistency, and sustainability ensures that each vegetable
+          in our packages is carefully selected, offering a farm-to-table
+          journey that delights every palate. Embrace the essence of farm-fresh
+          goodness with our thoughtfully crafted vegetable services."
+        </p>
+        <article>
+          <img src="/images/vegetable13.jpg" alt="" />
+          <div class="info">
+            <h2>Basic Plan for Individuals</h2>
+            <p>
+              Dive into a world of culinary delights with our Basic Plan,
+              offering a curated mix of 4 kilograms of fresh, seasonal
+              vegetables every week. From leafy greens to vibrant root
+              vegetables, this package is tailored for individuals who savor a
+              diverse and convenient culinary experience, it includes 500gm free
+              fruits per delivery as well.
+            </p>
+            <a href="contact.html"><button class="button hero-button">Purchase Plan</button></a>
+          </div>
+        </article>
+        <hr />
+        <article>
+          <div class="info">
+            <h2>Restaurant Package</h2>
+            <p>
+              Transform your restaurant's kitchen into a hub of gastronomic
+              innovation with our Restaurant Package. Receive a daily supply of
+              12 kilograms of premium vegetables, ensuring your chefs have the
+              freshest ingredients to craft delicious, high-quality dishes that
+              leave a lasting impression on your patrons, includes 1.5kg free
+              fruits.
+            </p>
+            <a href="contact.html"><button class="button hero-button">Purchase Plan</button></a>
+          </div>
+          <img src="/images/vegetable18.jpg" alt="" />
+        </article>
+        <hr />
+        <article>
+          <img src="/images/vegetable16.jpg" alt="" />
+          <div class="info">
+            <h2>Hotel Premium Supply</h2>
+            <p>
+              Redefine luxury dining in your hotel with our Hotel Premium
+              Supply. This exclusive package delivers a daily bounty of 25
+              kilograms of top-tier vegetables, meticulously sourced to meet the
+              sophisticated palate of your guests. Elevate your hotel's culinary
+              offerings and set a new standard for excellence in every meal,
+              includes 3kg of free fruits per delivery.
+            </p>
+           <a href="contact.html"><button class="button hero-button">Purchase Plan</button></a>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section id="pricing">
+      <div class="container price-container">
+        <h2>Our Pricing</h2>
+        <p>
+          At UrbanCrops, we believe in making farm-fresh goodness accessible to
+          all. Our pricing structure is designed with affordability in mind,
+          ensuring that you can indulge in the luxury of premium vegetables
+          without breaking the bank. Choose from our flexible subscription plans
+          tailored to meet your unique needs, whether you're an individual, a
+          bustling restaurant, or a luxury hotel. We pride ourselves on offering
+          competitive and transparent pricing, making it easy for you to elevate
+          your culinary creations without compromising on quality. Join us on a
+          journey of affordability and freshness, where quality vegetables are
+          within reach for everyone.
+        </p>
+        <div class="price-cards">
+          <div class="price-card">
+            <h3>Basic Plan</h3>
+
+            <img src="/images/vegetable13.jpg" alt="" />
+
+            <div class="ticks">
+              <div class="includes">
+                <img src="/images/tick-yes.png" alt="" />
+                <span>Doorstep Delivery</span>
+              </div>
+              <div class="includes">
+                <img src="/images/tick-yes.png" alt="" />
+                <span>500gm of free fruits</span>
+              </div>
+              <div class="includes">
+                <img src="/images/tick-yes.png" alt="" />
+                <span>4Kg Weekly</span>
+              </div>
+              <div class="includes">
+                <img src="/images/tick-yes.png" alt="" />
+                <span>Weekly Deliveries</span>
+              </div>
+              <div class="includes">
+                <img src="/images/tick-yes.png" alt="" />
+                <span>Customisation Available</span>
+              </div>
+              <div class="includes">
+                <img src="/images/tick-yes.png" alt="" />
+                <span>Choose from 14 varieties</span>
+              </div>
+              <div class="includes">
+                <img src="/images/tick-yes.png" alt="" />
+                <span>Customer Support</span>
+              </div>
+            </div>
+            <h3 class="card-price">Starts @ &#8377;149/delivery</h3>
+            <button class="button card-button">Get Plan</button>
+          </div>
+          <div class="price-card">
+            <h3>Restaurant Package</h3>
+
+            <img src="/images/vegetable18.jpg" alt="" />
+
+            <div class="ticks">
+              <div class="includes">
+                <img src="/images/tick-yes.png" alt="" />
+                <span>Doorstep Delivery</span>
+              </div>
+              <div class="includes">
+                <img src="/images/tick-yes.png" alt="" />
+                <span>1.5kg of free fruits</span>
+              </div>
+              <div class="includes">
+                <img src="/images/tick-yes.png" alt="" />
+                <span>12Kg daily</span>
+              </div>
+              <div class="includes">
+                <img src="/images/tick-yes.png" alt="" />
+                <span>Daily Deliveries</span>
+              </div>
+              <div class="includes">
+                <img src="/images/tick-yes.png" alt="" />
+                <span>Customisation Available</span>
+              </div>
+              <div class="includes">
+                <img src="/images/tick-yes.png" alt="" />
+                <span>Choose from 19 varieties</span>
+              </div>
+              <div class="includes">
+                <img src="/images/tick-yes.png" alt="" />
+                <span>Premium Support</span>
+              </div>
+            </div>
+            <h3 class="card-price">Starts @ &#8377;499/delivery</h3>
+           <button class="button card-button">Get Plan</button>
+          </div>
+          <div class="price-card">
+            <h3>Hotel Package</h3>
+
+            <img src="/images/vegetable16.jpg" alt="" />
+
+            <div class="ticks">
+              <div class="includes">
+                <img src="/images/tick-yes.png" alt="" />
+                <span>Doorstep Delivery</span>
+              </div>
+              <div class="includes">
+                <img src="/images/tick-yes.png" alt="" />
+                <span>3kg of free fruits</span>
+              </div>
+              <div class="includes">
+                <img src="/images/tick-yes.png" alt="" />
+                <span>25Kg daily</span>
+              </div>
+              <div class="includes">
+                <img src="/images/tick-yes.png" alt="" />
+                <span>Daily Deliveries</span>
+              </div>
+              <div class="includes">
+                <img src="/images/tick-yes.png" alt="" />
+                <span>Customisation Available</span>
+              </div>
+              <div class="includes">
+                <img src="/images/tick-yes.png" alt="" />
+                <span>Choose from 31 varieties</span>
+              </div>
+              <div class="includes">
+                <img src="/images/tick-yes.png" alt="" />
+                <span>Dedicated Manager</span>
+              </div>
+            </div>
+            <h3 class="card-price">Starts @ &#8377;1249/delivery</h3>
+           <button class="button card-button">Get Plan</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about-us">
+      <div class="container">
+        <h2>About Us</h2>
+        <div class="first-section">
+          <div class="first-section-info">
+            <h3>We are UrbanCrops</h3>
+            <p>
+              Welcome to UrbanCrops, where the journey from farm to table is a
+              story of passion, freshness, and sustainability. We believe in
+              redefining the way you experience vegetables, cultivating a
+              connection between nature's bounty and your plate.
+            </p>
+            <br />
+            <p>
+              Founded with a vision to make premium vegetables accessible to
+              all, UrbanCrops is a celebration of flavor, health, and community.
+              What started as a passion project has blossomed into a journey to
+              redefine how we connect with the food on our plates.
+            </p>
+            <br />
+            <p>Join us on this farm-to-table adventure.</p>
+          </div>
+          <img src="/images/farming.jpg" alt="" />
+        </div>
+        <div class="second-section">
+          <div class="second-section-info">
+            <h3>Why Choose Us</h3>
+            <p>
+              <b> Farm-Fresh Goodness:</b> We source directly from local farms,
+              ensuring the highest quality and freshness.
+            </p>
+            <br />
+            <p>
+              <b> Diverse Selection: </b>From leafy greens to exotic delights,
+              our curated selection caters to every culinary need.
+            </p>
+            <br />
+            <p>
+              <b>Sustainability Matters:</b> We are committed to eco-friendly
+              packaging and supporting local communities.
+            </p>
+            <br />
+            <p>
+              <b>Customer-Centric Approach:</b> Your satisfaction is our
+              priority, and our dedicated team is here to make your experience
+              seamless.
+            </p>
+          </div>
+          <img src="/images//header-third-column.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+     <div class="customer-testinomials">
+    <h2 >Customer Stories</h2>
+  </div>
+    <section id="testinomials">
+      <div class="swiper">
+    
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            
+            <img src="/images/customer1.png" alt="" />
+          
+            <div class="customer-info">
+              <h3>"Exceptional Quality and Service"</h3>
+              <p>
+                As a home chef, I rely on the freshness and variety of
+                vegetables in my kitchen.</p>
+                <p>UrbanCrops has exceeded my
+                expectations with their exceptional quality and prompt service.
+                The weekly deliveries have transformed my cooking, and I
+                couldn't be happier.
+              </p>
+              <span><b>Snehal Khandelwal, Culinary Enthusiast</b></span>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/images/customer2.png" alt="" />
+            <div class="customer-info">
+              <h3>"A Culinary Game-Changer"</h3>
+              <p>
+                Since switching to UrbanCrops, our restaurant has experienced a
+                culinary revolution. The daily supply of premium vegetables has
+                elevated our dishes, and the flexibility in ordering ensures we
+                never run out. Truly a game-changer for our kitchen!
+              </p>
+              <span> <b>Sara Verma, Executive Chef, Savory Bites Restaurant</b></span
+              >
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/images/customer3.png" alt="" />
+            <div class="customer-info">
+              <h3>"Luxury Dining Made Easy"</h3>
+              <p>
+                As a hotel manager, sourcing top-tier vegetables was always a
+                challenge. UrbanCrops has made luxury dining easy with their
+                daily deliveries of exquisite produce. The customization options
+                and dedicated support have set a new standard for our hotel's
+                culinary offerings.
+              </p>
+              <span><b>Aditya Singh, Hotel Manager, Grand Vista Hotel</b></span>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/images/customer4.png" alt="" />
+            <div class="customer-info">
+              <h3>"Freshness at Its Best"</h3>
+              <p>
+                I'm a stickler for freshness in my kitchen, and UrbanCrops delivers just that. The diverse selection of vegetables
+                and the commitment to sustainability align perfectly with my
+                values. It's more than a service; it's a partnership in fresh,
+                flavorful cooking.
+              </p>
+              <span><b>Kunal Shah, Home Cook and Sustainable Living Advocate</b></span>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+    <h3>We work with</h3>
+    <div>
+      <div class="logo-images">
+      <div>
+        <img src="/images/box8.png" alt="">
+      </div>
+      <div>
+        <img src="/images/taj.png" alt="">
+      </div>
+      <div>
+        <img src="/images/swiggy.png" alt="">
+      </div>
+      <div>
+        <img src="/images/ubereats.png" alt="">
+      </div>
+      </div>
+    </div>
+    </section>
+    <section id="faqs">
+   <h2>Frequently Asked Question</h2>
+      <div class="accordion">
+        <div class="accordion-item">
+          <div class="accordion-header">
+            <svg xmlns="http://www.w3.org/2000/svg" id="arrow" x="0" y="0" version="1.1" viewBox="0 0 29 29" xml:space="preserve"><path fill="none" stroke = "#004830" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="m20.5 11.5-6 6-6-6"></path></svg>
+            <span><b>What is UrbanCrops all about?</b></span>
+          </div>
+          <div class="content">
+          <div class="accordion-content">
+            <p>
+              UrbanCrops is dedicated to providing fresh and premium-quality vegetables directly to your doorstep. We aim to redefine the way you experience and consume vegetables, ensuring a seamless farm-to-table journey.
+            </p>
+          
+        </div>
+      </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-header">
+            <svg xmlns="http://www.w3.org/2000/svg" id="arrow" x="0" y="0" version="1.1" viewBox="0 0 29 29" xml:space="preserve"><path fill="none" stroke = "#004830" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="m20.5 11.5-6 6-6-6"></path></svg>
+            <span><b>How does the ordering process work?</b></span>
+          </div>
+          <div class="content">
+          <div class="accordion-content">
+            <p>
+              Ordering is simple! Choose a plan that suits your needs, select your preferred vegetables, and proceed to checkout. Our user-friendly platform ensures a hassle-free ordering experience.
+            </p>
+       
+        </div>
+      </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-header">
+            <svg xmlns="http://www.w3.org/2000/svg" id="arrow" x="0" y="0" version="1.1" viewBox="0 0 29 29" xml:space="preserve"><path fill="none" stroke = "#004830" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="m20.5 11.5-6 6-6-6"></path></svg>
+            <span><b>Where do you source your vegetables?</b></span>
+          </div>
+          <div class="content">
+          <div class="accordion-content">
+            <p>
+              We source our vegetables directly from local farms and trusted suppliers. This ensures that you receive the freshest and highest-quality produce in every delivery.
+            </p>
+          
+        </div>
+      </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-header">
+            <svg xmlns="http://www.w3.org/2000/svg" id="arrow" x="0" y="0" version="1.1" viewBox="0 0 29 29" xml:space="preserve"><path fill="none" stroke = "#004830" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="m20.5 11.5-6 6-6-6"></path></svg>
+            <span><b>What sets your service apart from others?</b></span>
+          </div>
+          <div class="content">
+          <div class="accordion-content">
+            <p>
+              Our commitment to quality, sustainability, and customer satisfaction sets us apart. We offer a diverse selection of vegetables, eco-friendly packaging, and personalized customer support to enhance your overall experience.
+            </p>
+          
+        </div>
+      </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-header">
+            <svg xmlns="http://www.w3.org/2000/svg" id="arrow" x="0" y="0" version="1.1" viewBox="0 0 29 29" xml:space="preserve"><path fill="none" stroke = "#004830" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="m20.5 11.5-6 6-6-6"></path></svg>
+            <span><b>Can I customize my vegetable selection?</b></span>
+          </div>
+          <div class="content">
+          <div class="accordion-content">
+            <p>
+              Absolutely! We understand that preferences vary. You can customize your vegetable selection based on your culinary needs and preferences. Flexibility is key to our service.
+            </p>
+          </div>
+        </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-header">
+            <svg xmlns="http://www.w3.org/2000/svg" id="arrow" x="0" y="0" version="1.1" viewBox="0 0 29 29" xml:space="preserve"><path fill="none" stroke = "#004830" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="m20.5 11.5-6 6-6-6"></path></svg>
+            <span><b>How often are deliveries made?</b></span>
+          </div>
+          <div class="content">
+          <div class="accordion-content">
+            <p>
+              Delivery frequencies vary based on your chosen plan. For individuals, we offer weekly deliveries, while restaurants and hotels can opt for daily deliveries to meet their dynamic needs.
+            </p>
+          
+        </div>
+      </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-header">
+            <svg xmlns="http://www.w3.org/2000/svg" id="arrow" x="0" y="0" version="1.1" viewBox="0 0 29 29" xml:space="preserve"><path fill="none" stroke = "#004830" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="m20.5 11.5-6 6-6-6"></path></svg>
+            <span><b>What measures do you take to ensure freshness?</b></span>
+          </div>
+          <div class="content">
+          <div class="accordion-content">
+            <p>
+              We prioritize freshness! From careful sourcing to efficient delivery logistics, our processes are designed to maintain the utmost freshness of our vegetables. Our commitment to quality is unwavering.
+            </p>
+         
+        </div>
+      </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-header">
+            <svg xmlns="http://www.w3.org/2000/svg" id="arrow" x="0" y="0" version="1.1" viewBox="0 0 29 29" xml:space="preserve"><path fill="none" stroke = "#004830" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="m20.5 11.5-6 6-6-6"></path></svg>
+            <span><b>How can I reach customer support?</b></span>
+          </div>
+          <div class="content">
+          <div class="accordion-content">
+            <p>
+              Our dedicated customer support team is here to assist you. You can reach us through the contact form on our website, or via email at support@UrbanCrops.com, or by calling our hotline at +1 555 123 4567.
+            </p>
+          
+          </div>
+        </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-header">
+            <svg xmlns="http://www.w3.org/2000/svg" id="arrow" x="0" y="0" version="1.1" viewBox="0 0 29 29" xml:space="preserve"><path fill="none" stroke = "#004830" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="m20.5 11.5-6 6-6-6"></path></svg>
+            <span><b>Do you deliver to all Over India?</b></span>
+          </div>
+          <div class="content">
+          <div class="accordion-content">
+            <p>
+              We strive to reach as many locations as possible. Currently We are delivering to only Mumbai, Pune and Bangalore.
+            </p>
+        
+        </div>
+      </div>
+        </div>
+      </div>
+   
+    </section>
+    <section id="footer">
+ <footer>
+  <div class="container">
+    <div class="section-1">
+      <div class="footer-logo">
+        <img src="/images/tomato-256.png" alt="" />
+        <a href="index.html"><h3 class="footer-logo-h3">UrbanCrops</h3></a>
+      </div>
+      <div class = "footer-paragraph"><p>"Join us on a journey of excellence."</p></div>
+    </div>
+    <div class="section-2">
+      <h4>Quick Links</h4>
+      <div>
+      <ul>
+        <li><a href="index.html" >Home</a></li>
+        <li><a href="index.html#about-us">About Us</a></li>
+        <li><a href="index.html#testinomials">Testimonials</a></li>
+        <li><a href="index.html#faqs">FAQS</a></li>
+   
+      </ul>
+      </div>
+    </div>
+    <div class="section-3">
+      <h4>Service Links</h4>
+      <ul>
+      <li><a href="index.html#services">Services</a></li>
+<li><a href="index.html#pricing">Pricing</a></li>
+<li><a href="contact.html">Contact Us</a></li>
+</ul>
+    </div>
+    <div class="section-4">
+      <h4>Contact</h4>
+      <div class="footer-email">
+        <span>Contact@UrbanCrops.com</span>
+      </div>
+      <div class="footer-phone">
+<span>+1 555 123 4567</span>
+      </div>
+      <div class="footer-social-links">
+        <a href="https://www.facebook.com/" target="_blank"><?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg height="100%" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" version="1.1" viewBox="0 0 512 512" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" style="fill:#1777f2;"/></svg></a> 
+       <a href="https://www.linkedin.com/" target="_blank"><?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg height="100%" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" version="1.1" viewBox="0 0 512 512" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="g5891"><path d="M512,64c0,-35.323 -28.677,-64 -64,-64l-384,0c-35.323,0 -64,28.677 -64,64l0,384c0,35.323 28.677,64 64,64l384,0c35.323,0 64,-28.677 64,-64l0,-384Z" id="background" style="fill:#2867b2;"/><g id="shapes"><rect height="257.962" id="rect11" style="fill:#fff;" width="85.76" x="61.053" y="178.667"/><path d="M104.512,54.28c-29.341,0 -48.512,19.29 -48.512,44.573c0,24.752 18.588,44.574 47.377,44.574l0.554,0c29.903,0 48.516,-19.822 48.516,-44.574c-0.555,-25.283 -18.611,-44.573 -47.935,-44.573Z" id="path13-0" style="fill:#fff;fill-rule:nonzero;"/><path d="M357.278,172.601c-45.49,0 -65.866,25.017 -77.276,42.589l0,-36.523l-85.738,0c1.137,24.197 0,257.961 0,257.961l85.737,0l0,-144.064c0,-7.711 0.554,-15.42 2.827,-20.931c6.188,-15.4 20.305,-31.352 43.993,-31.352c31.012,0 43.436,23.664 43.436,58.327l0,138.02l85.741,0l0,-147.93c0,-79.237 -42.305,-116.097 -98.72,-116.097Z" id="path15" style="fill:#fff;fill-rule:nonzero;"/></g></g></svg></a>
+       <a href="https://twitter.com/i/flow/login" target="_blank"> <?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg height="100%" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" version="1.1" viewBox="0 0 512 512" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/" xmlns:xlink="http://www.w3.org/1999/xlink"><g><path d="M448,512l-384,0c-35.328,0 -64,-28.672 -64,-64l0,-384c0,-35.328 28.672,-64 64,-64l384,0c35.328,0 64,28.672 64,64l0,384c0,35.328 -28.672,64 -64,64Z" id="Dark_Blue" style="fill:#1da1f2;fill-rule:nonzero;"/><path d="M196.608,386.048c120.704,0 186.752,-100.096 186.752,-186.752c0,-2.816 0,-5.632 -0.128,-8.448c12.8,-9.216 23.936,-20.864 32.768,-34.048c-11.776,5.248 -24.448,8.704 -37.76,10.368c13.568,-8.064 23.936,-20.992 28.928,-36.352c-12.672,7.552 -26.752,12.928 -41.728,15.872c-12.032,-12.8 -29.056,-20.736 -47.872,-20.736c-36.224,0 -65.664,29.44 -65.664,65.664c0,5.12 0.64,10.112 1.664,14.976c-54.528,-2.688 -102.912,-28.928 -135.296,-68.608c-5.632,9.728 -8.832,20.992 -8.832,33.024c0,22.784 11.648,42.88 29.184,54.656c-10.752,-0.384 -20.864,-3.328 -29.696,-8.192l0,0.896c0,31.744 22.656,58.368 52.608,64.384c-5.504,1.536 -11.264,2.304 -17.28,2.304c-4.224,0 -8.32,-0.384 -12.288,-1.152c8.32,26.112 32.64,45.056 61.312,45.568c-22.528,17.664 -50.816,28.16 -81.536,28.16c-5.248,0 -10.496,-0.256 -15.616,-0.896c28.928,18.432 63.488,29.312 100.48,29.312" id="Logo__x2014__FIXED" style="fill:#fff;fill-rule:nonzero;"/></g></svg></a> 
+       <a href="https://www.whatsapp.com/" target="_blank"><?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg height="100%" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" version="1.1" viewBox="0 0 512 512" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="WhatsApp-Logo-Icon"><path d="M116.225,-0.001c-11.264,0.512 -26.112,1.536 -32.768,3.072c-10.24,2.048 -19.968,5.12 -27.648,9.216c-9.728,4.608 -17.92,10.752 -25.088,17.92c-7.68,7.68 -13.824,15.872 -18.432,25.6c-4.096,7.68 -7.168,17.408 -9.216,27.648c-1.536,6.656 -2.56,21.504 -2.56,32.768c-0.512,4.608 -0.512,10.752 -0.512,13.824l0,251.905l0,13.824c0.512,11.264 1.536,26.112 3.072,32.768c2.048,10.24 5.12,19.968 9.216,27.648c4.608,9.728 10.752,17.92 17.92,25.088c7.68,7.68 15.872,13.824 25.6,18.432c7.68,4.096 17.408,7.168 27.648,9.216c6.656,1.536 21.504,2.56 32.768,2.56c4.608,0.512 10.752,0.512 13.824,0.512l251.904,0l13.824,0c11.264,-0.512 26.112,-1.536 32.768,-3.072c10.24,-2.048 19.968,-5.12 27.648,-9.216c9.728,-4.608 17.92,-10.752 25.088,-17.92c7.68,-7.68 13.824,-15.872 18.432,-25.6c4.096,-7.68 7.168,-17.408 9.216,-27.648c1.536,-6.656 2.56,-21.504 2.56,-32.768c0.512,-4.608 0.512,-10.752 0.512,-13.824l0,-265.729c-0.512,-11.264 -1.536,-26.112 -3.072,-32.768c-2.048,-10.24 -5.12,-19.968 -9.216,-27.648c-4.608,-9.728 -10.752,-17.92 -17.92,-25.088c-7.68,-7.68 -15.872,-13.824 -25.6,-18.432c-7.68,-4.096 -17.408,-7.168 -27.648,-9.216c-6.656,-1.536 -21.504,-2.56 -32.768,-2.56c-4.608,-0.512 -10.752,-0.512 -13.824,-0.512l-265.728,0Z" style="fill:url(#_Linear1);fill-rule:nonzero;"/><path d="M344.754,289.698c-4.56,-2.282 -26.98,-13.311 -31.161,-14.832c-4.18,-1.521 -7.219,-2.282 -10.259,2.282c-3.041,4.564 -11.78,14.832 -14.44,17.875c-2.66,3.042 -5.32,3.423 -9.88,1.14c-4.561,-2.281 -19.254,-7.095 -36.672,-22.627c-13.556,-12.087 -22.709,-27.017 -25.369,-31.581c-2.66,-4.564 -0.283,-7.031 2,-9.304c2.051,-2.041 4.56,-5.324 6.84,-7.986c2.28,-2.662 3.04,-4.564 4.56,-7.606c1.52,-3.042 0.76,-5.705 -0.38,-7.987c-1.14,-2.282 -10.26,-24.72 -14.06,-33.848c-3.701,-8.889 -7.461,-7.686 -10.26,-7.826c-2.657,-0.132 -5.7,-0.16 -8.74,-0.16c-3.041,0 -7.98,1.141 -12.161,5.704c-4.18,4.564 -15.96,15.594 -15.96,38.032c0,22.438 16.34,44.116 18.62,47.159c2.281,3.043 32.157,49.089 77.902,68.836c10.88,4.697 19.374,7.501 25.997,9.603c10.924,3.469 20.866,2.98 28.723,1.806c8.761,-1.309 26.98,-11.029 30.781,-21.677c3.799,-10.649 3.799,-19.777 2.659,-21.678c-1.139,-1.902 -4.179,-3.043 -8.74,-5.325m-83.207,113.573l-0.061,0c-27.22,-0.011 -53.917,-7.32 -77.207,-21.137l-5.539,-3.287l-57.413,15.056l15.325,-55.959l-3.608,-5.736c-15.184,-24.145 -23.203,-52.051 -23.192,-80.704c0.033,-83.611 68.083,-151.635 151.756,-151.635c40.517,0.016 78.603,15.811 107.243,44.474c28.64,28.663 44.404,66.764 44.389,107.283c-0.035,83.617 -68.083,151.645 -151.693,151.645m129.102,-280.709c-34.457,-34.486 -80.281,-53.487 -129.103,-53.507c-100.595,0 -182.468,81.841 -182.508,182.437c-0.013,32.156 8.39,63.546 24.361,91.212l-25.892,94.545l96.75,-25.37c26.657,14.535 56.67,22.194 87.216,22.207l0.075,0c100.586,0 182.465,-81.852 182.506,-182.448c0.019,-48.751 -18.946,-94.59 -53.405,-129.076" style="fill:#fff;"/></g><defs><linearGradient gradientTransform="matrix(0,-512,-512,0,256.001,512)" gradientUnits="userSpaceOnUse" id="_Linear1" x1="0" x2="1" y1="0" y2="0"><stop offset="0" style="stop-color:#25cf43;stop-opacity:1"/><stop offset="1" style="stop-color:#61fd7d;stop-opacity:1"/></linearGradient></defs></svg></a> 
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>&copy; 2023 UrbanCrops. All rights reserved.
+      <br>Made by Nikhil Verma.
+    </p>
+  </div>
+ 
+ </footer>
+</section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
