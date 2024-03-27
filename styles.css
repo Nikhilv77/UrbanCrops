@@ -30,7 +30,7 @@ html {
 body {
   font-family: "Noto Serif", serif;
   color: var(--color-dark);
-  background: var(--color-white);
+  background: #fff;
   line-height: 1.7;
 }
 .container {
